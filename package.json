@@ -17,5 +17,8 @@
   ],
   "author": "Anton Danilov",
   "license": "MIT",
-  "homepage": "https://bitbucket.org/deviun/trend-arr-to-string#readme"
+  "homepage": "https://bitbucket.org/deviun/trend-arr-to-string#readme",
+  "dependencies": {
+    "ava": "0.25.0"
+  }
 }
