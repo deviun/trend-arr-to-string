@@ -1,0 +1,21 @@
+{
+  "name": "trend-arr-to-string",
+  "version": "0.0.1",
+  "description": "Replacer array of numbers to string.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://deviun@bitbucket.org/deviun/trend-arr-to-string.git"
+  },
+  "keywords": [
+    "test",
+    "replacer",
+    "array-replacer"
+  ],
+  "author": "Anton Danilov",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/deviun/trend-arr-to-string#readme"
+}
