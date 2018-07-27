@@ -13,11 +13,11 @@ class ArrReplacer {
    * @param {Array} arr Array of numbers
    * @param {Number} stepLimit Limit the numbers for one step (by Default: STEP_LIMIT)
    */
-  static async replace(arr, stepLimit = STEP_LIMIT) {
+  static async replace(arr = [], stepLimit = STEP_LIMIT) {
     if (!arr.length) {
       return '';
     }
-    
+
     let offset = 0;
     let res = '';
 
