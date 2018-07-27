@@ -4,7 +4,7 @@
   "description": "Replacer array of numbers to string.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ava --verbose"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,9 @@
   ],
   "author": "Anton Danilov",
   "license": "MIT",
-  "homepage": "https://bitbucket.org/deviun/trend-arr-to-string#readme"
+  "homepage": "https://bitbucket.org/deviun/trend-arr-to-string#readme",
+  "dependencies": {
+    "ava": "0.25.0",
+    "bluebird": "3.5.1"
+  }
 }
