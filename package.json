@@ -1,6 +1,6 @@
 {
   "name": "trend-arr-to-string",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Replacer array of numbers to string.",
   "main": "index.js",
   "scripts": {
