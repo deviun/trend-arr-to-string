@@ -58,3 +58,21 @@ test('async test', async (t) => {
   t.deepEqual(syncCheck, ['sync1', 'sync2', 'async']);
   t.true(syncString === asyncString);
 });
+
+test('get ranges', async (t) => {
+  const arr = [1, 3, 4, 5, 6, 7, 8, 12, 13, 15];
+  const ranges = [[1], [3, 8], [12, 13], [15]];
+
+  const getRanges = await arrReplacer.getRanges(arr);
+
+  t.deepEqual(getRanges, ranges);
+});
+
+test('get string ranges', async (t) => {
+  const arr = [1, 3, 4, 5, 6, 7, 8, 12, 13, 15];
+  const stringRanges = '1,3-8,12-13,15';
+
+  const getStringRanges = await arrReplacer.getStringRanges(arr);
+
+  t.true(stringRanges === getStringRanges);
+});
